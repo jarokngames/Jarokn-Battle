@@ -6,7 +6,6 @@ from distutils import cmd
 from distutils.command.install_data import install_data as _install_data
 from distutils.command.build import build as _build
 
-import py2exe
 import msgfmt
 import os
 
@@ -61,10 +60,7 @@ cmdclass = {
 
 DATA = ['src/i18n.py']
  
-setup(options      = {'py2exe': {'bundle_files': 1, 'compressed': True}},
-      zipfile      = None,
-      console      = ['src/Jarokn-Battle.py'],
-      name         = 'jarokn-battle',
+setup(name         = 'jarokn-battle',
       version      = '1.0.0',
       description  = 'A python war simulator.',
       author       = 'James-Robert Corken Knight',
