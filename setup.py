@@ -49,7 +49,7 @@ class install_data(_install_data):
     def run(self):
         for lang in os.listdir('build/locale/'):
             lang_dir = os.path.join('share', 'locale', lang, 'LC_MESSAGES')
-            lang_file = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'mussorgsky.mo')
+            lang_file = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'Jarokn-Battle.mo')
             self.data_files.append( (lang_dir, [lang_file]) )
         _install_data.run(self)
 
@@ -59,9 +59,12 @@ cmdclass = {
     'install_data': install_data,
 }
 
-DATA = ['src/Jarokn-Battle.py', 'src/i18n.py']
+DATA = ['src/i18n.py']
  
-setup(name         = 'jarokn-battle',
+setup(options      = {'py2exe': {'bundle_files': 1, 'compressed': True}},
+      zipfile      = None,
+      console      = ['src/Jarokn-Battle.py'],
+      name         = 'jarokn-battle',
       version      = '1.0.0',
       description  = 'A python war simulator.',
       author       = 'James-Robert Corken Knight',
