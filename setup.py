@@ -59,7 +59,7 @@ cmdclass = {
     'install_data': install_data,
 }
 
-DATA = [['src/Jarokn-Battle.py', 'src/i18n.py'])]
+DATA = ['src/Jarokn-Battle.py', 'src/i18n.py']
  
 setup(name         = 'jarokn-battle',
       version      = '1.0.0',
@@ -67,6 +67,6 @@ setup(name         = 'jarokn-battle',
       author       = 'James-Robert Corken Knight',
       author_email = '<jarokn@me.com>',
       license      = 'MIT',
-      scripts      = SCRIPTS,
+      data_files   = DATA,
       cmdclass     = cmdclass
       )
