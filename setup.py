@@ -6,6 +6,7 @@ from distutils import cmd
 from distutils.command.install_data import install_data as _install_data
 from distutils.command.build import build as _build
 
+import py2exe
 import msgfmt
 import os
 
