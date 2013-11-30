@@ -106,7 +106,7 @@ while choice != "9":
 	elif choice == "2":
 		clearScreen()
 		armycost = calcArmyCost(playerlevel)
-		print _("Money: #") + str(playermoney)
+		print _("Money: $") + str(playermoney)
 		print _("Soldier Cost: $") + str(armycost)
 		armybuy = raw_input(_("How many soldiers would you like to buy? "))
 		if RepresentsInt(armybuy):

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 23:25+1100\n"
+"POT-Creation-Date: 2013-11-30 23:31+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,8 +103,8 @@ msgstr ""
 msgid "Press enter to continue."
 msgstr ""
 
-#: src/Jarokn-Battle.py:109
-msgid "Money: #"
+#: src/Jarokn-Battle.py:109 src/Jarokn-Battle.py:135 src/Jarokn-Battle.py:156
+msgid "Money: $"
 msgstr ""
 
 #: src/Jarokn-Battle.py:110 src/Jarokn-Battle.py:162
@@ -121,10 +121,6 @@ msgstr ""
 
 #: src/Jarokn-Battle.py:127 src/Jarokn-Battle.py:146
 msgid "Not enough money."
-msgstr ""
-
-#: src/Jarokn-Battle.py:135 src/Jarokn-Battle.py:156
-msgid "Money: $"
 msgstr ""
 
 #: src/Jarokn-Battle.py:136 src/Jarokn-Battle.py:163
