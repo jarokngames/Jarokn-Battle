@@ -132,7 +132,7 @@ while choice != "9":
 	elif choice == "3":
 		clearScreen()
 		techcost = calcTechCost(playertech)
-		print _("Money: #") + str(playermoney)
+		print _("Money: $") + str(playermoney)
 		print _("Tech Cost: $") + str(techcost)
 		techbuy = raw_input(_("How many techlevels would you like to buy? "))
 		if RepresentsInt(techbuy):
