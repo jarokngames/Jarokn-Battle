@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jarokn Battle\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 23:31+1100\n"
-"PO-Revision-Date: 2013-11-30 12:39+0000\n"
+"POT-Creation-Date: 2013-12-01 16:57+1100\n"
+"PO-Revision-Date: 2013-12-01 06:00+0000\n"
 "Last-Translator: NexxusDrako <jarokn@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,148 +17,148 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Jarokn-Battle.py:67
+#: Jarokn-Battle.py:67
 msgid "1. Fight"
 msgstr "1. Fight"
 
-#: src/Jarokn-Battle.py:68
+#: Jarokn-Battle.py:68
 msgid "2. Buy Soldiers"
 msgstr "2. Buy Soldiers"
 
-#: src/Jarokn-Battle.py:69
+#: Jarokn-Battle.py:69
 msgid "3. Buy Tech"
 msgstr "3. Buy Tech"
 
-#: src/Jarokn-Battle.py:70
+#: Jarokn-Battle.py:70
 msgid "4. Check Army"
 msgstr "4. Check Army"
 
-#: src/Jarokn-Battle.py:71
+#: Jarokn-Battle.py:71
 msgid "5. Check Cost"
 msgstr "5. Check Cost"
 
-#: src/Jarokn-Battle.py:72
+#: Jarokn-Battle.py:72
 msgid "6. Save Army"
 msgstr "6. Save Army"
 
-#: src/Jarokn-Battle.py:73
+#: Jarokn-Battle.py:73
 msgid "7. Load Army"
 msgstr "7. Load Army"
 
-#: src/Jarokn-Battle.py:74
+#: Jarokn-Battle.py:74
 msgid "9. Quit"
 msgstr "9. Quit"
 
-#: src/Jarokn-Battle.py:75
+#: Jarokn-Battle.py:75
 msgid "Enter choice: "
 msgstr "Enter choice: "
 
-#: src/Jarokn-Battle.py:77
+#: Jarokn-Battle.py:78
 msgid "What level army would you like to fight? "
 msgstr "What level army would you like to fight? "
 
-#: src/Jarokn-Battle.py:84
-msgid "Player Efficiency:"
-msgstr "Player Efficiency:"
+#: Jarokn-Battle.py:85
+msgid "Player Efficiency: "
+msgstr "Player Efficiency: "
 
-#: src/Jarokn-Battle.py:84
-msgid "vs. Computer Efficiency:"
-msgstr "vs. Computer Efficiency:"
+#: Jarokn-Battle.py:85
+msgid " vs. Computer Efficiency: "
+msgstr " vs. Computer Efficiency: "
 
-#: src/Jarokn-Battle.py:89
+#: Jarokn-Battle.py:90
 msgid "You win!"
 msgstr "You win!"
 
-#: src/Jarokn-Battle.py:90
+#: Jarokn-Battle.py:91
 msgid "Money Gain: $"
 msgstr "Money Gain: $"
 
-#: src/Jarokn-Battle.py:91
+#: Jarokn-Battle.py:92
 msgid "New Money Amount: $"
 msgstr "New Money Amount: $"
 
-#: src/Jarokn-Battle.py:93
+#: Jarokn-Battle.py:94
 msgid "Dead heat, it's a tie!"
 msgstr "Dead heat, it's a tie!"
 
-#: src/Jarokn-Battle.py:99
+#: Jarokn-Battle.py:100
 msgid "You lose!"
 msgstr "You lose!"
 
-#: src/Jarokn-Battle.py:100
+#: Jarokn-Battle.py:101
 msgid "Soldier Loss: "
 msgstr "Soldier Loss: "
 
-#: src/Jarokn-Battle.py:101 src/Jarokn-Battle.py:121 src/Jarokn-Battle.py:125
+#: Jarokn-Battle.py:102 Jarokn-Battle.py:122 Jarokn-Battle.py:126
 msgid "New Army Size: "
 msgstr "New Army Size: "
 
-#: src/Jarokn-Battle.py:103 src/Jarokn-Battle.py:129
+#: Jarokn-Battle.py:104 Jarokn-Battle.py:130
 msgid "Please input a number."
 msgstr "Please input a number."
 
-#: src/Jarokn-Battle.py:104 src/Jarokn-Battle.py:130 src/Jarokn-Battle.py:149
-#: src/Jarokn-Battle.py:157 src/Jarokn-Battle.py:164 src/Jarokn-Battle.py:169
-#: src/Jarokn-Battle.py:179 src/Jarokn-Battle.py:189
+#: Jarokn-Battle.py:105 Jarokn-Battle.py:131 Jarokn-Battle.py:150
+#: Jarokn-Battle.py:158 Jarokn-Battle.py:166 Jarokn-Battle.py:172
+#: Jarokn-Battle.py:183 Jarokn-Battle.py:193
 msgid "Press enter to continue."
 msgstr "Press enter to continue."
 
-#: src/Jarokn-Battle.py:109 src/Jarokn-Battle.py:135 src/Jarokn-Battle.py:156
+#: Jarokn-Battle.py:110 Jarokn-Battle.py:136 Jarokn-Battle.py:157
 msgid "Money: $"
 msgstr "Money: $"
 
-#: src/Jarokn-Battle.py:110 src/Jarokn-Battle.py:162
+#: Jarokn-Battle.py:111 Jarokn-Battle.py:164
 msgid "Soldier Cost: $"
 msgstr "Soldier Cost: $"
 
-#: src/Jarokn-Battle.py:111
+#: Jarokn-Battle.py:112
 msgid "How many soldiers would you like to buy? "
 msgstr "How many soldiers would you like to buy? "
 
-#: src/Jarokn-Battle.py:120 src/Jarokn-Battle.py:124
+#: Jarokn-Battle.py:121 Jarokn-Battle.py:125
 msgid "New Level: "
 msgstr "New Level: "
 
-#: src/Jarokn-Battle.py:127 src/Jarokn-Battle.py:146
+#: Jarokn-Battle.py:128 Jarokn-Battle.py:147
 msgid "Not enough money."
 msgstr "Not enough money."
 
-#: src/Jarokn-Battle.py:136 src/Jarokn-Battle.py:163
+#: Jarokn-Battle.py:137 Jarokn-Battle.py:165
 msgid "Tech Cost: $"
 msgstr "Tech Cost: $"
 
-#: src/Jarokn-Battle.py:137
+#: Jarokn-Battle.py:138
 msgid "How many techlevels would you like to buy? "
 msgstr "How many techlevels would you like to buy? "
 
-#: src/Jarokn-Battle.py:144
+#: Jarokn-Battle.py:145
 msgid "New Tech Level: "
 msgstr "New Tech Level: "
 
-#: src/Jarokn-Battle.py:148
+#: Jarokn-Battle.py:149
 msgid "Please input a number"
 msgstr "Please input a number"
 
-#: src/Jarokn-Battle.py:153
+#: Jarokn-Battle.py:154
 msgid "Level: "
 msgstr "Level: "
 
-#: src/Jarokn-Battle.py:154
+#: Jarokn-Battle.py:155
 msgid "Army Size: "
 msgstr "Army Size: "
 
-#: src/Jarokn-Battle.py:155
+#: Jarokn-Battle.py:156
 msgid "Tech Level: "
 msgstr "Tech Level: "
 
-#: src/Jarokn-Battle.py:168
+#: Jarokn-Battle.py:171
 msgid "Army saved."
 msgstr "Army saved."
 
-#: src/Jarokn-Battle.py:178
+#: Jarokn-Battle.py:182
 msgid "Army loaded."
 msgstr "Army loaded."
 
-#: src/Jarokn-Battle.py:184
+#: Jarokn-Battle.py:188
 msgid "Press enter to exit."
 msgstr "Press enter to exit."
