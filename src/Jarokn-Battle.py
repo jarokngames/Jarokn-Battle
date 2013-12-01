@@ -48,8 +48,8 @@ def giveMoney(comarmy, comlevel):
 	moneygain = comarmy * comcost
 	return moneygain
 
-def loseSoldiers(playerarmy, comarmy):
-	soldierloss = comarmy - playerarmy
+def loseSoldiers(playereff, comeff):
+	soldierloss = comeff - playereff
 	return soldierloss
 
 def saveArmy():
@@ -94,7 +94,7 @@ while choice != "9":
 				if win == 2:
 					print _("Dead heat, it's a tie!")
 				if win == 0:
-					soldierloss = loseSoldiers(playerarmy, comarmy)
+					soldierloss = loseSoldiers(playereff, comeff)
 					playerarmy = playerarmy - soldierloss
 					if playerarmy <= 0:
 						playerarmy = 1
