@@ -1,4 +1,3 @@
-import cPickle as pickle
 import os
 import i18n
 import random
@@ -54,10 +53,14 @@ def loseSoldiers(playereff, comeff):
 
 def saveArmy():
 	f = open("Jarokn-Battle.sav", "wb")
-	f.write(playerlevel)
-	f.write(playerarmy)
-	f.write(playertech)
-	f.write(playermoney)
+	playerlevelstr = str(playerlevel) + "\n"
+	playerarmystr = str(playerarmy) + "\n"
+	playertechstr = str(playertech) + "\n"
+	playermoneystr = str(playermoney) + "\n"
+	f.write(playerlevelstr)
+	f.write(playerarmystr)
+	f.write(playertechstr)
+	f.write(playermoneystr)
 	f.close()
 
 choice = 0
