@@ -184,7 +184,7 @@ while choice != "9":
 				f = open('Jarokn-Battle.sav', 'rb')
 				playerlevel = int(f.readline())
 				playerarmy = int(f.readline())
-				playertech = int(f.readlne())
+				playertech = int(f.readline())
 				playermoney = int(f.readline())
 				f.close()
 				print _("Army loaded.")
