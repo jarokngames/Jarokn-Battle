@@ -74,7 +74,7 @@ while choice != "9":
 	print _("9. Quit")
 	choice = str(raw_input(_("Enter choice: ")))
 	if choice == "1":
-                clearScreen()
+		clearScreen()
 		comlevel = raw_input(_("What level army would you like to fight? "))
 		if RepresentsInt(comlevel):
 			comlevel = int(comlevel)
@@ -158,7 +158,7 @@ while choice != "9":
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "5":
-                clearScreen()
+		clearScreen()
 		armycost = calcArmyCost(playerlevel)
 		techcost = calcTechCost(playertech)
 		print _("Soldier Cost: $") + str(armycost)
@@ -166,25 +166,29 @@ while choice != "9":
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "6":
-                clearScreen()
+		clearScreen()
 		saveArmy()
 		print _("Army saved.")
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "7":
-                clearScreen()
-		f = open('Jarokn-Battle.sav', 'rb')
-		playerlevel = int(f.readline())
-		playerarmy = int(f.readline())
-		playertech = int(f.readlne())
-		playermoney = int(f.readline())
-		f.close()
-		print _("Army loaded.")
+		clearScreen()
+		try:
+			with open('Jarokn-Battle.sav'):
+				f = open('Jarokn-Battle.sav', 'rb')
+				playerlevel = int(f.readline())
+				playerarmy = int(f.readline())
+				playertech = int(f.readlne())
+				playermoney = int(f.readline())
+				f.close()
+				print _("Army loaded.")
+		except IOError:
+			print _("File not found.")
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "9":
 		clearScreen()
-		print "See you soon!"
+		print _("See you soon!")
 		raw_input(_("Press enter to exit."))
 		break
 	else: # Incorrect Input

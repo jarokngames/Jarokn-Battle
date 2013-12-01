@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jarokn Battle\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-01 16:57+1100\n"
-"PO-Revision-Date: 2013-12-01 06:00+0000\n"
+"POT-Creation-Date: 2013-12-01 17:18+1100\n"
+"PO-Revision-Date: 2013-12-01 06:18+0000\n"
 "Last-Translator: NexxusDrako <jarokn@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "Please input a number."
 
 #: Jarokn-Battle.py:105 Jarokn-Battle.py:131 Jarokn-Battle.py:150
 #: Jarokn-Battle.py:158 Jarokn-Battle.py:166 Jarokn-Battle.py:172
-#: Jarokn-Battle.py:183 Jarokn-Battle.py:193
+#: Jarokn-Battle.py:187 Jarokn-Battle.py:197
 msgid "Press enter to continue."
 msgstr "Press enter to continue."
 
@@ -155,10 +155,18 @@ msgstr "Tech Level: "
 msgid "Army saved."
 msgstr "Army saved."
 
-#: Jarokn-Battle.py:182
+#: Jarokn-Battle.py:184
 msgid "Army loaded."
 msgstr "Army loaded."
 
-#: Jarokn-Battle.py:188
+#: Jarokn-Battle.py:186
+msgid "File not found."
+msgstr "File not found."
+
+#: Jarokn-Battle.py:191
+msgid "See you soon!"
+msgstr "See you soon!"
+
+#: Jarokn-Battle.py:192
 msgid "Press enter to exit."
 msgstr "Press enter to exit."
