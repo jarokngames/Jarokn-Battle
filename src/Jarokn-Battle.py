@@ -77,29 +77,32 @@ while choice != "9":
 		clearScreen()
 		comlevel = raw_input(_("What level army would you like to fight? "))
 		if RepresentsInt(comlevel):
-			comlevel = int(comlevel)
-			comarmy = random.randint((comlevel * 100) - 99, comlevel * 100)
-			comtech = random.randint(1, comlevel)
-			playereff = playerarmy * playertech
-			comeff = comarmy * comtech
-			print _("Player Efficiency: ") + str(playereff) + _(" vs. Computer Efficiency: ") + str(comeff)
-			win = calcBattle(playereff, comeff)
-			if win == 1:
-				moneygain = giveMoney(comarmy, comlevel)
-				playermoney = playermoney + moneygain
-				print _("You win!")
-				print _("Money Gain: $") + str(moneygain)
-				print _("New Money Amount: $") + str(playermoney)
-			if win == 2:
-				print _("Dead heat, it's a tie!")
-			if win == 0:
-				soldierloss = loseSoldiers(playerarmy, comarmy)
-				playerarmy = playerarmy - soldierloss
-				if playerarmy <= 0:
+                        if comlevel > 0:
+                                comlevel = int(comlevel)
+                                comarmy = random.randint((comlevel * 100) - 99, comlevel * 100)
+                                comtech = random.randint(1, comlevel)
+                                playereff = playerarmy * playertech
+                                comeff = comarmy * comtech
+                                print _("Player Efficiency: ") + str(playereff) + _(" vs. Computer Efficiency: ") + str(comeff)
+                                win = calcBattle(playereff, comeff)
+                                if win == 1:
+                                	moneygain = giveMoney(comarmy, comlevel)
+                                	playermoney = playermoney + moneygain
+                                	print _("You win!")
+                                	print _("Money Gain: $") + str(moneygain)
+                                	print _("New Money Amount: $") + str(playermoney)
+                                if win == 2:
+                                	print _("Dead heat, it's a tie!")
+                                if win == 0:
+                                	soldierloss = loseSoldiers(playerarmy, comarmy)
+                                	playerarmy = playerarmy - soldierloss
+                                	if playerarmy <= 0:
 					playerarmy = 1
 					print _("You lose!")
 					print _("Soldier Loss: ") + str(soldierloss)
 					print _("New Army Size: ") + str(playerarmy)
+			else:
+                                print _("No such level.")
 		else:
 			print _("Please input a number.")
 		raw_input(_("Press enter to continue."))
