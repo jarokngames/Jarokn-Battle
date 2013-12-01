@@ -98,9 +98,9 @@ while choice != "9":
 					playerarmy = playerarmy - soldierloss
 					if playerarmy <= 0:
 						playerarmy = 1
-						print _("You lose!")
-						print _("Soldier Loss: ") + str(soldierloss)
-						print _("New Army Size: ") + str(playerarmy)
+					print _("You lose!")
+					print _("Soldier Loss: ") + str(soldierloss)
+					print _("New Army Size: ") + str(playerarmy)
 			else:
 				print _("No such level.")
 		else:
