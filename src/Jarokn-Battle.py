@@ -74,10 +74,11 @@ while choice != "9":
 	print _("9. Quit")
 	choice = str(raw_input(_("Enter choice: ")))
 	if choice == "1":
+                clearScreen()
 		comlevel = raw_input(_("What level army would you like to fight? "))
 		if RepresentsInt(comlevel):
 			comlevel = int(comlevel)
-			comarmy = random.randint((comlevel * 100 - 99), comlevel * 100)
+			comarmy = random.randint((comlevel * 100) - 99, comlevel * 100)
 			comtech = random.randint(1, comlevel)
 			playereff = playerarmy * playertech
 			comeff = comarmy * comtech
@@ -157,6 +158,7 @@ while choice != "9":
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "5":
+                clearScreen()
 		armycost = calcArmyCost(playerlevel)
 		techcost = calcTechCost(playertech)
 		print _("Soldier Cost: $") + str(armycost)
@@ -164,11 +166,13 @@ while choice != "9":
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "6":
+                clearScreen()
 		saveArmy()
 		print _("Army saved.")
 		raw_input(_("Press enter to continue."))
 		continue
 	elif choice == "7":
+                clearScreen()
 		f = open('Jarokn-Battle.sav', 'rb')
 		playerlevel = int(f.readline())
 		playerarmy = int(f.readline())
