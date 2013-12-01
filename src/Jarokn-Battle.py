@@ -86,6 +86,8 @@ while choice != "9":
 				comtech = random.randint(1, comlevel)
 				playereff = playerarmy * playertech
 				comeff = comarmy * comtech
+				print _("Player Army: ") + str(playerarmy) + _(" vs. Computer Army: ") + str(comarmy)
+				print _("Player Tech Level: ") + str(playertech) + _(" vs. Computer Tech Level: ") + str(comtech)
 				print _("Player Efficiency: ") + str(playereff) + _(" vs. Computer Efficiency: ") + str(comeff)
 				win = calcBattle(playereff, comeff)
 				if win == 1:
